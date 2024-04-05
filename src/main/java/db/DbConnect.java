@@ -92,6 +92,7 @@ public class DbConnect {
 
 
     public static void main(String[] args) throws SQLException {
-
+        DbConnect db = new DbConnect();
+        db.getConnection();
     }
 }
